@@ -9,6 +9,12 @@
   padding: 20px;
 }
 
+.about img {
+  box-shadow: 2px 1px 14px 0px rgba(0, 0, 0, 0.75);
+  border-radius: 5px;
+  object-fit: cover;
+}
+
 .portfolio {
   text-align: center;
   padding: 40px;
@@ -20,32 +26,39 @@
   margin-right: auto;
 }
 
-.card {
-  margin-left: auto;
-  margin-right: auto;
-}
-
 .blog p {
   text-align: justify;
+  padding: 20px;
 }
 
 .team {
   text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 0;
 }
-b .team p {
+
+.team p {
   text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  width: 100%;
 }
 
 .contact {
-  text-align: center;
-  padding: 0;
+  text-align: right;
+  padding-right: 20px;
 }
 
 .contact p {
+  text-align: right;
+  padding-right: 0;
+  height: 100%;
+  text-decoration: none;
+  color: blanchedalmond;
+}
+
+footer h5 {
   text-align: center;
+  margin-top: 0;
+  padding-top: 0;
 }
 
 header {
