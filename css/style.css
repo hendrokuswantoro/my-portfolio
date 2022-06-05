@@ -1,0 +1,58 @@
+.about {
+  text-align: center;
+  padding: 40px;
+}
+
+.about p {
+  margin-left: 20px;
+  text-align: justify;
+  padding: 20px;
+}
+
+.portfolio {
+  text-align: center;
+  padding: 40px;
+}
+.blog {
+  text-align: center;
+  padding-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.blog p {
+  text-align: justify;
+}
+
+.team {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+}
+b .team p {
+  text-align: center;
+}
+
+.contact {
+  text-align: center;
+  padding: 0;
+}
+
+.contact p {
+  text-align: center;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  z-index: 10;
+}
